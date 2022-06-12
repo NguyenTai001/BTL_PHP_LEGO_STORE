@@ -29,7 +29,10 @@ class user
 			Session::set('user', true);
 			Session::set('userId', $value['id']);
 			Session::set('role_id', $value['role_id']);
-			header("Location:index.php");
+			if($value['role_id'] == 1)
+				header("Location:admin/indexadmin.php");
+			else
+				header("Location:index.php");
 		} else {
 			$alert = "Tên đăng nhập hoặc mật khẩu không đúng!";
 			return $alert;

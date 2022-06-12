@@ -402,3 +402,6 @@ input[type=number]{
   background-color: dodgerblue;
   color: white;
 }
+.productName h3{
+  height: 58px;
+}

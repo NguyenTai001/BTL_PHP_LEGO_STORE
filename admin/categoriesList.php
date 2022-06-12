@@ -58,6 +58,7 @@ $pageCount = $categories->getCountPaging();
         </label>
         <label class="logo">ADMIN</label>
         <ul>
+            <li><a href="../index.php">Lego Store</a></li>
             <li><a href="productlist.php" >Quản lý Sản phẩm</a></li>
             <li><a href="categoriesList.php" class="active">Quản lý danh mục</a></li>
             <li><a href="orderlist.php" id="order">Quản lý Đơn hàng</a></li>
